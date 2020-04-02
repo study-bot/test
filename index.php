@@ -38,8 +38,8 @@
     </script>
 </head>
 <body class="fontStyle">
-
-<div class="topstrip" id="topstrip"></div>
+<img src="css/222.jpg" width="100%"height="50px"/>
+<img src="css/Slide1.png" width="100%"height="95%"/>
 <div class="topbar container-fluid" id="chat-text" style="background-color: #fafafa">
 </div>
 <form>
