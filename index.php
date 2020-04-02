@@ -41,6 +41,9 @@
 <img src="css/222.jpg" width="100%"height="50px"/>
 <img src="css/Slide1.png" width="100%"height="95%"/>
 <div class="topbar container-fluid" id="chat-text" style="background-color: #fafafa">
+<div id="chatbox">
+<p class="textResponse"><span>Hi! I'm Stud-o-Bot.</span></p>
+</div>
 </div>
 <form>
     <span style="width:100%;" id="inputSpan">
