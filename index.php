@@ -39,8 +39,7 @@
 </head>
 <body class="fontStyle">
 
-<div class="topstrip" id="topstrip"><img src="https://drive.google.com/file/d/1mDgGoFl1mF_9_TwSln6zmOsmF1hKG_7U/view?usp=drivesdk" width="100%"height="50px"/></div>
-<div class="topstrip1" id="topstrip1"><img src="https://drive.google.com/file/d/1mI7VPzWm1otjM5aRmbravrSKh350vpJ9/view?usp=drivesdk" width="100%"height="95%"/></div>
+<div class="topstrip" id="topstrip"></div>
 <div class="topbar container-fluid" id="chat-text" style="background-color: #fafafa">
 </div>
 <form>
