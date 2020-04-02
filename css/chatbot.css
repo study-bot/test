@@ -81,8 +81,8 @@ body,html {
     border-radius: 5px;
     margin: 10px;
     padding: 15px;
-    border:solid 1px black;
-    background-color: lightgray;
+    border:solid 1px red;
+    background-color: red;
     max-width:450px;
 }
 
@@ -111,8 +111,8 @@ div.textResponse img {
     border-radius: 5px;
     margin: 10px;
     padding:5px;
-    border:solid 1px black;
-    background-color: lightgray;
+    border:solid 1px red;
+    background-color: red;
 }
 
 .bot-answer-row{
@@ -139,7 +139,7 @@ div.textResponse img {
     /*max-width:80%;*/
     border-radius: 5px;
     background-color: #b2ff59;
-    float:right;
+    float:left;
     margin: 10px;
     padding:5px;
     min-height: 1em;
@@ -152,9 +152,9 @@ div.textResponse img {
     border-radius: 5px;
     margin: 10px;
     padding:5px;
-    border:solid 1px black;
-    /*background-color: lightgray;*/
-    float:left;
+    border:solid 1px blue;
+    background-color: blue;
+    float:right;
 }
 .inputbox{
     outline:none;
