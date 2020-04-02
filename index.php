@@ -44,7 +44,6 @@
 <div id="chatbox">
 <p class="textResponse"><span>Hi! I'm Stud-o-Bot.</span></p>
 </div>
-</div>
 <form>
     <span style="width:100%;" id="inputSpan">
         <input class="inputbox"
