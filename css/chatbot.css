@@ -1,7 +1,7 @@
 body,html {
   height: 100%;
-  background: url(Slide1.PNG) no-repeat;
-  background-size: cover;
+  font-family: Garamond;
+  background-color: black;
 
 .topstrip{
     width:100%;
@@ -79,10 +79,13 @@ body,html {
 
 .textResponse{
     border-radius: 5px;
+    font-family: monospace;
+    font-size: 17px
     margin: 10px;
-    padding: 15px;
-    border:solid 1px red;
-    background-color: red;
+    padding: 10px;
+    border:solid 1px;
+    color: white; 
+    background-color: #EF5350;;
     max-width:450px;
 }
 
@@ -147,14 +150,16 @@ div.textResponse img {
 }
 .rounded-div{
     display:inline-block;
-    clear:right;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: right;
     max-width:80%;
     border-radius: 5px;
     margin: 10px;
     padding:5px;
-    border:solid 1px blue;
-    background-color: blue;
-    float:right;
+    border:solid 1px gray;
+    background-color: #009688;
+    
 }
 .inputbox{
     outline:none;
@@ -192,7 +197,14 @@ hr {
 .divEndMessage{
     margin:0 auto;
 }
-
+#chatbox
+{
+background-color: black;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+margin-top: 60px;
+  }
 /*
 .progress {
     height: 25px !important;
