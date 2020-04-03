@@ -81,8 +81,9 @@ body,html {
     border-radius: 5px;
     margin: 10px;
     padding: 15px;
-    border:solid 1px black;
-    background-color: lightgray;
+    font-family: monospace;
+    border:solid 1px darkred;
+    background-color: #D62D09;
     max-width:450px;
 }
 
@@ -150,10 +151,11 @@ div.textResponse img {
     clear:right;
     max-width:80%;
     border-radius: 5px;
+    font-family: monospace;
     margin: 10px;
     padding:5px;
-    border:solid 1px black;
-    /*background-color: lightgray;*/
+    border:solid 1px darkgray;
+    background-color: #787777;
     float:left;
 }
 .inputbox{
