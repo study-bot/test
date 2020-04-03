@@ -38,7 +38,7 @@
     </script>
 </head>
 <body class="fontStyle">
-<img src="css/header.png" width="100%"height="100px"/>
+<img src="css/header.png" width="100%"height="75px"/>
 <div class="topbar container-fluid" id="chat-text" style="background-color: #fafafa">
 <form>
     <span style="width:100%;" id="inputSpan">
