@@ -1,11 +1,11 @@
 body,html {
   height: 100%;
   font-family: Garamond;
-  background-color: black;
+  background: url(body.png) no-repeat;
 
 .topstrip{
     width:100%;
-    background: url(222.JPG) no-repeat;
+    background: url(header.png) no-repeat;
     background-size: cover;
     overflow-y: scroll;
     position:fixed;
