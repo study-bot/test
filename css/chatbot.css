@@ -103,8 +103,8 @@ div.textResponse img {
     width:100%;
     overflow-y: scroll;
     position:fixed;
-    top:75px;
-    bottom:75px;
+    top:125px;
+    bottom:90px;
 }
 
 .bot-answer-container{
@@ -138,7 +138,7 @@ div.textResponse img {
     clear:left;
     /*max-width:80%;*/
     border-radius: 5px;
-    background-color: #b2ff59;
+    background-color: b2ff59;
     float:right;
     margin: 10px;
     padding:5px;
@@ -154,13 +154,13 @@ div.textResponse img {
     margin: 10px;
     padding:5px;
     border:solid 1px darkgray;
-    background-color: #787777;
+    background-color: 787777;
     float:left;
 }
 .inputbox{
     outline:none;
     width:100%;
-    height:40px;
+    height:39px;
     position:fixed;
     bottom:75px;
 }
