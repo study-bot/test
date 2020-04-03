@@ -80,10 +80,9 @@
     font-size: 15px;
     color: floralwhite;
     background-color: red;
-    background-image: url(iconchatbot.png);
     max-width:450px;
 }
-.textResponse img {
+.textchatbot{
     background-color: red;
     background-image: url(iconchatbot.png);
     background-repeat: no-repeat;
@@ -163,7 +162,7 @@ div.textResponse img {
     float:left;
 }
 
-.rounded-div img{
+.textuser{
     background-image: url(iconuser.png);
     background-repeat: no-repeat;
     width: 10px;
