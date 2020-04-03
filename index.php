@@ -38,8 +38,8 @@
     </script>
 </head>
 <body class="fontStyle">
-<img src="css/222.jpg" width="100%"height="50px"/>
-<img src="css/Slide1.png" width="100%"height="95%"/>
+<img src="css/header.png" width="100%"height="50px"/>
+<img src="css/body.png" width="100%"height="95%"/>
 <div class="topbar container-fluid" id="chat-text" style="background-color: #fafafa">
 <form>
     <span style="width:100%;" id="inputSpan">
@@ -65,6 +65,6 @@ $sessionID = bin2hex(random_bytes(16));
         echo $event;
         ?>
 </span>
-
+<img src="css/footer.png" width="100%"height="50px"/>
 </body>
 </html>
