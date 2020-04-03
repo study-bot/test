@@ -42,6 +42,8 @@
 <body class="fontStyle">
 <img src="css/full.png" width="100%"height="101%"/>
 <div class="topbar container-fluid" id="chat-text" style="background: transparent">
+<div class="textchatbot" id="textchatbot">
+<div class="textuser" id="textuser">
 <form>
     <span style="width:100%;" id="inputSpan">
         <input class="inputbox"
