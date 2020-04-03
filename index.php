@@ -38,12 +38,12 @@
     </script>
 </head>
 <body class="fontStyle">
-<img src="css/full.png" width="100%"height="100%"/>
-<div class="topbar container-fluid" id="chat-text" style="background-color: #fafafa">
+<img src="css/full.png" width="100%"height="101%"/>
+<div class="topbar container-fluid" id="chat-text" style="background: transparent">
 <form>
     <span style="width:100%;" id="inputSpan">
         <input class="inputbox"
-               placeholder="Write something and press Enter..." id="message" name="date" value="" x-webkit-speech>
+               placeholder="Write something and press Enter..." id="message" name="date" value="" x-webkit-speech style="left: 5px"; "background: transparent">
     </span>
     <input name="submit" type="hidden" value="Submit">
 </form>
