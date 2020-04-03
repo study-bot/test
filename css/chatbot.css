@@ -76,9 +76,10 @@
     border-radius: 5px;
     margin: 10px;
     padding: 15px;
-    font-family: Garamond;
-    border:solid 1px darkred;
-    background-color: red;
+    font-family: courier;
+    font-size: 15px;
+    color: floralwhite;
+    background-color: gray;
     max-width:450px;
 }
 
@@ -108,7 +109,6 @@ div.textResponse img {
     margin: 10px;
     padding:5px;
     border:solid 1px black;
-    background-color: lightgray;
 }
 
 .bot-answer-row{
@@ -146,11 +146,12 @@ div.textResponse img {
     clear:right;
     max-width:80%;
     border-radius: 5px;
-    font-family: Garamond;
+    font-family: courier;
+    font-size: 15px;
+    color: floralwhite;
     margin: 10px;
     padding:5px;
-    border:solid 1px darkgray;
-    background-color: gray;
+    background-color: red;
     float:left;
 }
 .inputbox{
@@ -169,7 +170,7 @@ div.textResponse img {
 }*/
 
 .fontStyle{
-    font-family: Garamond; 
+    font-family: courier; 
     font-size:14px;
 }
 
