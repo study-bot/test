@@ -81,10 +81,14 @@
     color: floralwhite;
     background-color: red;
     background-image: url(iconchatbot.png);
+    max-width:450px;
+}
+.textResponse img {
+    background-color: red;
+    background-image: url(iconchatbot.png);
     background-repeat: no-repeat;
     width: 10px;
     height: 20px;
-    max-width:450px;
 }
 
 div.textResponse p {
@@ -155,13 +159,17 @@ div.textResponse img {
     color: floralwhite;
     margin: 10px;
     padding:5px;
+    background-color: gray;
+    float:left;
+}
+
+.rounded-div img{
     background-image: url(iconuser.png);
     background-repeat: no-repeat;
     width: 10px;
     height: 20px;
-    background-color: gray;
-    float:left;
 }
+
 .inputbox{
     outline:none;
     width:100%;
