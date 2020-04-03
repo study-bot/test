@@ -167,6 +167,7 @@ div.textResponse img {
     background-repeat: no-repeat;
     width: 10px;
     height: 20px;
+    float:left;
 }
 
 .inputbox{
