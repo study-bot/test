@@ -167,7 +167,7 @@ div.textResponse img {
     margin-right: 10%;
 }
 
-.submit{
+.btn{
     background: darkblue;
     border-radius: 0 25px 25px 0;
     position: relative;
@@ -185,7 +185,7 @@ div.textResponse img {
   
 }
 
-.submit:hover{
+.btn:hover{
     background: blue;
     
 }
