@@ -157,7 +157,7 @@ div.textResponse img {
 
 .inputbox{
     outline:none;
-    width:100%;
+    width:90%;
     height:40px;
     position:fixed;
     bottom:40px;
@@ -172,6 +172,14 @@ div.textResponse img {
     position: relative;
     color: floralwhite;
     transition: 0.2s;
+    width:10%;
+    height:40px;
+    position:fixed;
+    bottom:40px;
+    outline:none;
+    padding: 0 25px;
+    border: none;
+    cursor: pointer;
   
 }
 
