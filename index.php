@@ -46,8 +46,8 @@
     <span style="width:100%;" id="inputSpan">
         <input class="inputbox"
                placeholder="Write something and press Enter..." id="message" name="date" value="" x-webkit-speech style="left: 5px">
+        <input class="submit" type="submit" value="Submit">
     </span>
-    <input class="submit" type="submit" value="Submit">
 </form>
 <?php
 $event = '';
