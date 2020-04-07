@@ -76,17 +76,17 @@
     color: #07fff0;
     background-color: red;
     margin: 10px;
-    padding: 15px;
+}
+
+.gaLinkOutSuggestion:hover{
+    background-color: #ff0300c9:
 }
 
 a{
-    border-radius: 25px 25px 25px 25px;
     font-family: courier;
     font-size: 15px;
     color: #07fff0;
-    background-color: red;
     margin: 10px;
-    padding: 15px;
 }
 
 .textResponse{
