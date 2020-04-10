@@ -62,10 +62,5 @@ include('starter.php');
         echo $sessionID;
         ?>
 </span>
-<span style="display: none;" id="course">
-        <?php
-        echo $event;
-        ?>
-</span>
 </body>
 </html>
