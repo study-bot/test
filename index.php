@@ -50,21 +50,12 @@
     </span>
 </form>
 <?php
-$event = '';
-if (isset($_GET["course"])){
-    $event = $_GET['course'];
-}
 $sessionID = uniqid('',true);
 include('starter.php');
 ?>
 <span style="display: none;" id="sessionId">
         <?php
         echo $sessionID;
-        ?>
-</span>
-<span style="display: none;" id="course">
-        <?php
-        echo $event;
         ?>
 </span>
 </body>
