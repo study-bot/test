@@ -521,23 +521,24 @@ function showUserText(){
     var userMessageRow = jQuery('<div/>',{
         class:'row'
     });
-     var userCol = jQuery('<div/>',{
-        'class':'col'
+    var userCol = jQuery('<div/>',{
+       'class':'col'
     });
-     var userContainerDiv = jQuery('<div/>',{
-        'class': 'float-right',
-         tabindex:1
-    });    
+    var userContainerDiv = jQuery('<div/>',{
+       'class':"float-right",
+        tabindex:1
+    });
     var div = jQuery('<div/>', {
         text: $("#message").val(),
-        'class': "rounded-div"
+        'class': "rounded-div",
+        tabindex:1
     });
-    $(userMessageRow).append(div);
-    $("#chat-text" ).append(userMessageRow);
     $(userMessageRow).append(userCol);
     $(userCol).append(userContainerDiv);
+    $(userContainerDiv).append(div);
+    $("#chat-text" ).append(userMessageRow);
     $("#message").val('');
- 
+
 }
 
 function truncateString(input, charLimit){
