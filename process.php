@@ -5,6 +5,8 @@ try {
         // create curl resource
         $ch = curl_init();
         $userquery = $_POST['message'];
+        $query = $_POST['message'];
+        $sessionid = $_POST['sessionid'];
         $query = curl_escape($ch,$_POST['message']);
         $sessionid = curl_escape($ch,$_POST['sessionid']);
         $postData = array('query' => array($query), 'lang' => 'en', 'sessionId' => $sessionid);
@@ -14,9 +16,8 @@ try {
         $ch = curl_init('https://api.api.ai/v1/query?v='.$v);
         curl_setopt($ch, CURLOPT_POST, 1);
         curl_setopt($ch, CURLOPT_POSTFIELDS, $jsonData);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json', 'Authorization: Bearer 12bcfb14dc0c40e58295e362de0ff3b2'));
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json', 'Authorization: Bearer f4b1632765bb423d9a4324e350bfad98'));
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        
         $result = curl_exec($ch);
         echo $result;
         
