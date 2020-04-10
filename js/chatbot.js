@@ -75,16 +75,6 @@ function sendGAEvent(category, action, label){
     //ga('send','event',category,action,label,t);
 }
 
-function showUserText(){
-    var div = jQuery('<div/>', {
-        text: $("#message").val(),
-        'class': "rounded-div",
-        tabindex:1
-    });
-    $("#chat-text" ).append(div);
-    $("#message").val('');
-}
-
 if(!String.linkify) {
     String.prototype.linkify = function() {
 
