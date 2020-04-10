@@ -5,6 +5,11 @@ try {
         // create curl resource
         $ch = curl_init();
         $userquery = $_POST['message'];
+        $query = curl_escape($ch,$_POST['message']);
+        $sessionid = curl_escape($ch,$_POST['sessionid']);
+
+
+
         $client = new \Google_Client();
         $client->useApplicationDefaultCredentials();
         $client->setScopes (['https://www.googleapis.com/auth/dialogflow']);
@@ -80,8 +85,6 @@ try {
         // close curl resource to free up system resources
         curl_close($ch);
     }
-}
-
 }catch (Exception $e) {
     $speech = $e->getMessage();
     $fulfillment = new stdClass();
