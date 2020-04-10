@@ -35,8 +35,6 @@ $(function () {
                 $('#message').focus();
                 var responseObj = JSON.parse(response);
                 var defaultResponse = null;
-                var obj = JSON.parse(response);
-                var event = obj.result.action;
                 if(responseObj.defaultResponse){
                     defaultResponse = responseObj.defaultResponse;
                 }
@@ -54,29 +52,7 @@ $(function () {
                     'class':"float-left",
                     tabindex:0
                 });
-                var answerdiv = jQuery('<div/>', {
-                    html: obj.result.fulfillment.speech.linkify()+'&nbsp;',
-                    'class': "rounded-div-bot",
-                    tabindex:1
-                });
-                $("#chat-text").append(answerdiv);
-                if(event){
-                    var stylingDiv = jQuery('<div/>', {
-                        html: $("#template").html(),
-                        tabindex:1
-                    });
-                    if(event === 'show.customizer'){
-                        $(answerdiv).append(stylingDiv);
-                    }
-                }
-                $(answerdiv).focus();
-                $("#message").focus();
-                try{
-                    sendGAEvent('iFrame',guid,'botSays: '+obj.result.fulfillment.speech)
-                }
-                catch(e){
-                    console.log(e);
-
+            
                 $('#chat-text').append(answerRow);
                 $(answerRow).append(answerCol);
                 $(answerCol).append(answerContainerDiv);
