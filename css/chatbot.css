@@ -148,17 +148,14 @@ div.textResponse img {
 
 .rounded-div-bot{
     display:inline-block;
-    clear:left;
-    float:right;
-    border-radius: 25px 25px 25px 25px;
+    clear:right;
+    max-width:80%;
+    border-radius: 5px;
     margin: 10px;
-    padding: 15px;
-    font-family: courier;
-    font-size: 15px;
-    color: floralwhite;
-    background-color: red;
-    max-width:450px;
-    min-height: 1em;
+    padding:5px;
+    border:solid 1px black;
+    background-color: lightgray;
+    float:left
     
 }
 .rounded-div{
