@@ -98,6 +98,8 @@ a{
     color: floralwhite;
     background-color: red;
     max-width:450px;
+    clear: right;
+    float: left;
 }
 
 div.textResponse p {
@@ -148,7 +150,7 @@ div.textResponse img {
 
 .rounded-div-bot{
     display:inline-block;
-    clear: left;
+    clear: right;
     margin: 10px;
     padding: 15px;
     background-color: red;
@@ -156,12 +158,12 @@ div.textResponse img {
     border-radius: 25px 25px 25px 25px;
     color:  floralwhite;
     max-width: 450px;
-    float: right;
+    float: left;
     
 }
 .rounded-div{
     display:inline-block;
-    clear:right;
+    clear: left;
     max-width:80%;
     border-radius: 25px 25px 25px 25px;
     font-family: courier;
@@ -170,7 +172,7 @@ div.textResponse img {
     margin: 10px;
     padding: 15px;
     background-color: gray;
-    float:left;
+    float: right;
 }
 
 .inputbox{
