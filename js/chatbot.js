@@ -32,7 +32,7 @@ $(function () {
                     'class':'col'
                 });
                 var answerContainerDiv = jQuery('<div/>',{
-                    'class':"float-right",
+                    'class':"float-left",
                     tabindex:0
                 });
 
@@ -107,7 +107,7 @@ function postAjax(query,sessionid){
                 'class':'col'
             });
             var answerContainerDiv = jQuery('<div/>',{
-                'class':"float-right",
+                'class':"float-left",
                 tabindex:0
             });
 
@@ -159,7 +159,7 @@ function renderDefaultResponse(textFromDefaultResponse,parent){
         class:'row'
     });
     var simpleResponseDiv = jQuery('<div/>',{
-        class:'rounded-div'
+        class:'textResponse'
     });
     $(simpleResponseRow).append(simpleResponseDiv);
     $(simpleResponseDiv).html(md2html(textFromDefaultResponse));
@@ -432,7 +432,7 @@ function renderSimpleResponse(data, parent){
         'class':'row'
     });
     var simpleResponseInnerDiv = jQuery('<div/>',{
-        'class':'rounded-div gaSimpleResponse'
+        'class':'textResponse gaSimpleResponse'
     });
     var simpleResponseText = jQuery('<p/>',{
         html:md2html(data['simpleResponses']['simpleResponses'][0]['textToSpeech']),
@@ -523,7 +523,7 @@ function showUserText(){
     });
     var div = jQuery('<div/>', {
         text: $("#message").val(),
-        'class': "textResponse",
+        'class': "rounded-div",
         tabindex:1
     });
     $(userMessageRow).append(div);
