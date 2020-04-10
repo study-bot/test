@@ -148,7 +148,7 @@ div.textResponse img {
 
 .rounded-div-bot{
     display:inline-block;
-    clear:right;
+    clear: left;
     margin: 10px;
     padding: 15px;
     background-color: red;
