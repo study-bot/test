@@ -159,7 +159,7 @@ function renderDefaultResponse(textFromDefaultResponse,parent){
         class:'row'
     });
     var simpleResponseDiv = jQuery('<div/>',{
-        class:'textResponse'
+        class:'rounded-div'
     });
     $(simpleResponseRow).append(simpleResponseDiv);
     $(simpleResponseDiv).html(md2html(textFromDefaultResponse));
@@ -432,7 +432,7 @@ function renderSimpleResponse(data, parent){
         'class':'row'
     });
     var simpleResponseInnerDiv = jQuery('<div/>',{
-        'class':'textResponse gaSimpleResponse'
+        'class':'rounded-div gaSimpleResponse'
     });
     var simpleResponseText = jQuery('<p/>',{
         html:md2html(data['simpleResponses']['simpleResponses'][0]['textToSpeech']),
@@ -523,7 +523,7 @@ function showUserText(){
     });
     var div = jQuery('<div/>', {
         text: $("#message").val(),
-        'class': "rounded-div",
+        'class': "textResponse",
         tabindex:1
     });
     $(userMessageRow).append(div);
