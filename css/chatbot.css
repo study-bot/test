@@ -158,6 +158,7 @@ div.textResponse img {
     color: floralwhite;
     background-color: red;
     max-width:450px;
+    min-height: 1em;
     
 }
 .rounded-div{
