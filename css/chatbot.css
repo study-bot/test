@@ -156,6 +156,7 @@ div.textResponse img {
     border-radius: 25px 25px 25px 25px;
     color:  floralwhite;
     max-width: 450px;
+    float: right;
     
 }
 .rounded-div{
