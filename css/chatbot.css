@@ -163,7 +163,6 @@ div.textResponse img {
 }
 .rounded-div{
     display:inline-block;
-    clear: right;
     max-width: 450px;
     border-radius: 25px 25px 25px 25px;
     background-color: gray;
@@ -172,7 +171,6 @@ div.textResponse img {
     font-family: courier;
     font-size: 15px;
     color: floralwhite;
-    float: left;
 }
 
 .inputbox{
