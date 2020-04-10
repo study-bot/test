@@ -152,10 +152,13 @@ div.textResponse img {
     max-width:80%;
     border-radius: 5px;
     margin: 10px;
-    padding:5px;
-    border:solid 1px black;
-    background-color: lightgray;
-    float:left
+    padding: 15px;
+    background-color: red;
+    font-family: courier;
+    float: right;
+    border-radius: 25px 25px 25px 25px;
+    color:  floralwhite;
+    max-width: 450px;
     
 }
 .rounded-div{
