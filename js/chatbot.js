@@ -1,3 +1,4 @@
+
 $(function () {
     window.initialMessageDisplayed = false;
     $(document).mouseenter(function(){
@@ -15,12 +16,8 @@ $(function () {
         }
     });
 
-
     var guid = ($("#sessionId").text()).trim();
-
-
-$(function () {
-
+    
     $('form').on('submit', function (e) {
         var query = $("#message").val();
         guid = ($("#sessionId").text()).trim();
